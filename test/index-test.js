@@ -14,8 +14,8 @@ describe('Selectors', () => {
     expect(ninjaBabySelector().attr('src')).toEqual("https://s3.amazonaws.com/after-school-assets/baby-ninja.gif");
   });
 
-  it('divSelector() should return two divs', function() {
-    expect(divSelector().length).toBe(2);
+  it('divSelector() should return three divs', function() {
+    expect(divSelector().length).toBe(3);
     expect(divSelector()[0].tagName).toEqual("DIV");
   });
 
